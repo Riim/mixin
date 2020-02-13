@@ -1,4 +1,6 @@
-export function mixin(target, sources, skipProperties) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function mixin(target, sources, skipProperties) {
     if (!Array.isArray(sources)) {
         sources = [sources];
     }
@@ -12,3 +14,4 @@ export function mixin(target, sources, skipProperties) {
     }
     return target;
 }
+exports.mixin = mixin;
