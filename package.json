@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Riim/mixin#readme",
   "devDependencies": {
-    "typescript": "^2.5.1"
+    "typescript": "^3.7.5"
   }
 }
